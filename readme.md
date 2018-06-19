@@ -4,70 +4,71 @@
 
 ### HTML Tools 
 
+* **[Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)**
 * **[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)** – Automatically rename paired HTML/XML tag
 * **[HTML Tag Wrapper](https://marketplace.visualstudio.com/items?itemName=hwencc.html-tag-wrapper)**
-* **[Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)**
 
 ### CSS Tools 
 
+* **[Intellisense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)** – Could really use a snappier name, but you get the picture.
 * **[Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)** – All the code completion and snippets you'll need.
 * **[SCSS intellisense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)** – Ignore what I said before, this is nice to have as well.
-* **[Intellisense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)** – Could really use a snappier name, but you get the picture.
 
 ### JavaScript Tools
 
 * **[Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)** – All the good syntax support for modern JS, plus Flow and GraphQL.
 * **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)**
+* **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)** – Like PHP Docblocker for your JS.
 * **[JavaScript (ES6) Code Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)**
 * **[JavaScript Snippet Pack](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-javascript-snippet-pack)** – Yep, I use them both.
-* **[Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)** – Like PHP Docblocker for your JS.
 * **[npm intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)**
 * **[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)** – Use this for all of my non-WP JS work.
-* **[Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)** – Gives you real-time inline console logging super powers. Great for learning new tricks. 
-* **[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)** – Vue.js support.
-* **[Reacths code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)**
+* **[Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)** – Gives you real-time inline console logging super powers. Great for learning new tricks.
 * **[React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)**
+* **[Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)**
+* **[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)** – Vue.js support.
 
 ### PHP Tools
 
+* **[Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)** – I don't work a ton with Laravel, but ocassionally I'll work on a project built on the Roots Sage theme that uses Blade templates.
 * **[PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)**
+* **[PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)**
 * **[PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)** – There are a few other intellisense extensions out there, but this is the strongest contender in my experience.
 * **[PHP Intellisense - Crane](https://marketplace.visualstudio.com/items?itemName=HvyIndustries.crane)** – Awesome supplement to the intellisense extension for better code completion.
-* **[PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)**
-* **[Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)** – I don't work a ton with Laravel, but ocassionally I'll work on a project built on the Roots Sage theme that uses Blade templates.
+* **[PHPUnit](https://marketplace.visualstudio.com/items?itemName=emallin.phpunit)** – Unit testing without leaving the editor.
 
 ### WordPress Tools
 
+* **[ACF-Snippet](https://marketplace.visualstudio.com/items?itemName=anthonydiametrix.ACF-Snippet)** – A must-have if you use Advanced Custom Fields.
 * **[WordPress Toolbox](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox)** – There are other WP snippet extensions out there, but again, I find this one to have the best mix of features, good intellisense, and up-to-date documentation.
 * **[WPCS Whitelist Flags](https://marketplace.visualstudio.com/items?itemName=claudiosanches.wpcs-whitelist-flags)** – Shortcut PHPCS whitelisting for WP coding standards.
-* **[ACF-Snippet](https://marketplace.visualstudio.com/items?itemName=anthonydiametrix.ACF-Snippet)** – A must-have if you use Advanced Custom Fields.
 
 ### Python Tools 
 
-* **[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)**
-* **[Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)** – A richer feature-set than the extension above, but I use them both and typically find everything I need between the two.
-* **[Django Template](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html)**
 * **[Django Snippets](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-snippets)**
+* **[Django Template](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html)**
 * **[Jupyter](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)**
 * **[Jinja](https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja)**
+* **[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)**
+* **[Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)** – A richer feature-set than the extension above, but I use them both and typically find everything I need between the two.
 
 ### Git Tools 
 
-* **[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)**
 * **[gi](https://marketplace.visualstudio.com/items?itemName=rubbersheep.gi)** – Generate `.gitignore` files from smart presets.
+* **[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)**
 * **[gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)** – Language support for `.gitignore` files.
 
 ### Markdown Tools 
 
-* **[Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)** – You think I make these myself? Nothx.
 * **[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)**
+* **[Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)** – You think I make these myself? Nothx.
 
 ### Linting Tools
 
-* **[PHP Codesniffer](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)**
-* **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**
 * **[EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)**
 * **[EditorConfig Generator](https://marketplace.visualstudio.com/items?itemName=nepaul.editorconfiggenerator)**
+* **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**
+* **[PHP Codesniffer](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)**
 * **[Stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)**
 * **[TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)** – Good ole Typescript.
 
@@ -91,11 +92,11 @@
 
 ### More addons that tickle my fancy
 
-* **[Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets)** – I dislike how VS Code boxes your matched brackets. This addon gives you some control over styling.
-* **[seti-icons](https://marketplace.visualstudio.com/items?itemName=qinjia.seti-icons)** – Dress up your file explorer icons.
-* **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)** – Get those fancy code screenshots everyone's always asking about.
-* **[Org Mode](https://marketplace.visualstudio.com/items?itemName=tootone.org-mode)** – Arguably the best feature in Emacs, but in VS Code.
 * **[Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)** – Because old habits die hard.
+* **[Org Mode](https://marketplace.visualstudio.com/items?itemName=tootone.org-mode)** – Arguably the best feature in Emacs, but in VS Code.
+* **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)** – Get those fancy code screenshots everyone's always asking about.
+* **[seti-icons](https://marketplace.visualstudio.com/items?itemName=qinjia.seti-icons)** – Dress up your file explorer icons.
+* **[Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets)** – I dislike how VS Code boxes your matched brackets. This addon gives you some control over styling.
 
 ## My Settings
 
