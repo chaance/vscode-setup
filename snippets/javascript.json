@@ -3,15 +3,30 @@
         "prefix": "stateless",
         "body": [
             "import React from 'react';",
-            "\nexport default () => ($1",
-            ");"
+            "\nconst ${1:Test} = (${2:props}) => (${3:<div {...props\\} />});",
+            "\nexport default ${1:Test};",
         ]
     },
-    "React component wrapper": {
+    "React Component wrapper": {
         "prefix": "component",
         "body": [
             "import React, { Component } from 'react';",
             "\nclass ${1:Test} extends Component {",
+            "\trender() {",
+            "\t\treturn (",
+            "\t\t\t<div>$2",
+            "\t\t\t</div>",
+            "\t\t);",
+            "\t}",
+            "}",
+            "\nexport default ${1:Test};"
+        ]
+    },
+    "React PureComponent wrapper": {
+        "prefix": "pure",
+        "body": [
+            "import React, { PureComponent } from 'react';",
+            "\nclass ${1:Test} extends PureComponent {",
             "\trender() {",
             "\t\treturn (",
             "\t\t\t<div>$2",
