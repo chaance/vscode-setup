@@ -1,0 +1,31 @@
+{
+    "Stateless component wrapper": {
+        "prefix": "stateless",
+        "body": [
+            "import React from 'react';",
+            "\nexport default () => ($1",
+            ");"
+        ]
+    },
+    "React component wrapper": {
+        "prefix": "component",
+        "body": [
+            "import React, { Component } from 'react';",
+            "\nclass ${1:Test} extends Component {",
+            "\trender() {",
+            "\t\treturn (",
+            "\t\t\t<div>$2",
+            "\t\t\t</div>",
+            "\t\t);",
+            "\t}",
+            "}",
+            "\nexport default ${1:Test};"
+        ]
+    },
+    "import PropTypes": {
+        "prefix": "im-prop-types",
+        "body": [
+            "import PropTypes from 'prop-types';"
+        ]
+    }
+}

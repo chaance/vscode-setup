@@ -1,0 +1,18 @@
+{
+    "Breakpoint": {
+        "prefix": "brk",
+        "body": [
+            "@include breakpoint($1) {",
+            "\t$2",
+            "}"
+        ],
+        "description": "Mequia query breakpoint mixin."
+    },
+    "@include": {
+        "prefix": "inc",
+        "body": [
+            "@include "
+        ],
+        "description": "Include directive."
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "PHP open/close": {
+        "prefix": "ppp",
+        "body": [
+            "<?php $1 ?>"
+        ],
+        "description": "Open and close PHP tags"
+    },
+    "CPT Loop": {
+        "prefix": "cpt",
+        "body": [
+            "$1 = new WP_Query( array($2) );",
+            "if ( $1->have_posts() ) :",
+            "\twhile ( $1->have_posts() ) :",
+            "\t\t$1->the_post();",
+            "\tendwhile;",
+            "endif;",
+            "wp_reset_postdata();"
+        ],
+        "description": "Custom post type loop."
+    },
+    "CPT Loop (short)": {
+        "prefix": "cpts",
+        "body": [
+            "$1 = new WP_Query( array($2) );",
+            "if ( $1->have_posts() ) {",
+            "\twhile ( $1->have_posts() ) {",
+            "\t\t$1->the_post();",
+            "\t}",
+            "}",
+            "wp_reset_postdata();"
+        ],
+        "description": "Custom post type loop (short syntax)."
+    },
+    "Echo escape (html)": {
+        "prefix": "eesch",
+        "body": [
+            "echo esc_html( $1 );"
+        ],
+        "description": "Echo escape html"
+    },
+    "Echo escape (attr)": {
+        "prefix": "eesca",
+        "body": [
+            "echo esc_attr( $1 );"
+        ],
+        "description": "Echo escape attribute"
+    },
+    "Echo escape (url)": {
+        "prefix": "eescu",
+        "body": [
+            "echo esc_url( $1 );"
+        ],
+        "description": "Echo escape URL"
+    },
+    "Echo WP_KSES_POST": {
+        "prefix": "eksesp",
+        "body": [
+            "echo wp_kses_post( $1 );"
+        ],
+        "description": "Echo wp_kses_post"
+    },
+    "Class declaration": {
+        "prefix": "class",
+        "body": [
+            "class ${TM_FILENAME_BASE} ${2:extends AnotherClass} ${3:implements Interface} {",
+            "\t$4",
+            "}"
+        ],
+        "description": "Class declaration"
+    },
+    "Class method": {
+        "prefix": "met",
+        "body": [
+            "${1|public,private,protected|} ${2:static} function ${3:method_name}( $4 ) {",
+            "\t$5",
+            "}"
+        ],
+        "description": "Public method declaration"
+    }
+}

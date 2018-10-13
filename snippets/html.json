@@ -1,0 +1,22 @@
+{
+    "PHP open/close": {
+        "prefix": "ppp",
+        "body": [
+            "<?php $1 ?>"
+        ],
+        "description": "Open and close PHP tags"
+    },
+    "XY Grid": {
+        "prefix": "xyg",
+        "body": [
+            "<div class=\"grid-container\">",
+            "\t<div class=\"grid-x grid-padding-x\">",
+            "\t\t<div class=\"cell\">",
+            "\t\t\t$1",
+            "\t\t</div>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Foundation XY Grid layout."
+    }
+}
