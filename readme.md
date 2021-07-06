@@ -280,7 +280,6 @@
   "editor.accessibilitySupport": "off",
   "window.zoomLevel": 1,
   "security.workspace.trust.untrustedFiles": "open",
-  "shellformat.useEditorConfig": true,
   "todohighlight.isEnable": false
 }
 ```
